@@ -338,7 +338,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/virt.sabu.de/bin/phpunit" phpunit_phar_path="/var/www/virt.sabu.de/phpunit.phar" />
+      <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/virt.sabu.de/vendor/autoloader.php" phpunit_phar_path="/var/www/virt.sabu.de/phpunit.phar" />
     </phpunit_settings>
   </component>
 </application>
