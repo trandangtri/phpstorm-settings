@@ -1,4 +1,4 @@
-<profile version="1.0">
+<inspections profile_name="Default" version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="LowPerformanceArrayUniqueUsageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpCSValidationInspection" enabled="true" level="ERROR" enabled_by_default="true">
@@ -15,4 +15,4 @@
   </inspection_tool>
   <inspection_tool class="ThrowRawExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="TypeUnsafeComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-</profile>
+</inspections>
