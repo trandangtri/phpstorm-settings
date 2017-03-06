@@ -1,6 +1,12 @@
-<inspections profile_name="Default" version="1.0">
+<profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="ForeachSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="InheritDocInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="LowPerformanceArrayUniqueUsageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="MagicMethodsValidityInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="MoreThanThreeArgumentsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="limit" value="5" />
+  </inspection_tool>
   <inspection_tool class="PhpCSValidationInspection" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="CODING_STANDARD" value="PSR2" />
     <option name="SHOW_SNIFF_NAMES" value="true" />
@@ -10,9 +16,11 @@
     <option name="CHECK_FIELD" value="true" />
     <option name="CHECK_CLASS_CONSTANT" value="true" />
   </inspection_tool>
+  <inspection_tool class="PhpMissingParentConstructorInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpUnitTestsInspection" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="SUGGEST_TO_USE_ASSERTSAME" value="true" />
   </inspection_tool>
   <inspection_tool class="ThrowRawExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="TypeUnsafeComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-</inspections>
+  <inspection_tool class="UnserializeExploitsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+</profile>
