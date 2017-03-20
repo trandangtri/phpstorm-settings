@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="16">
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
@@ -7,8 +7,8 @@
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
-      <mapping pattern=".env" type="YAML" />
       <mapping pattern="Vagrantfile" type="YAML" />
+      <mapping pattern=".env" type="YAML" />
     </extensionMap>
   </component>
 </application>
