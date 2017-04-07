@@ -723,6 +723,7 @@
   <component name="PhpUnit">
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="PHPUNIT_PHAR" custom_loader_path="/var/www/virt.sabu.de/vendor/meleven/base-bundle/vendor/autoload.php" phpunit_phar_path="/usr/local/bin/phpunit" />
+      <phpunit_by_interpreter interpreter_id="a97b2f4e-c2be-4af0-8293-3af086da20ba" load_method="PHPUNIT_PHAR" custom_loader_path="" phpunit_phar_path="/var/www/virt.dodenhof.de/phpunit.phar" />
     </phpunit_settings>
   </component>
 </application>
