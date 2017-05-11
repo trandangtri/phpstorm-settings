@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="Configuration.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -20,6 +21,21 @@
       <mask>*.twig</mask>
       <mask>*.ym</mask>
       <mask>*.yml</mask>
+      <mask>.yml</mask>
+      <mask>C</mask>
+      <mask>CO</mask>
+      <mask>COn</mask>
+      <mask>COnf</mask>
+      <mask>COnfig</mask>
+      <mask>COnfigur</mask>
+      <mask>COnfigura</mask>
+      <mask>COnfigurati</mask>
+      <mask>COnfiguratio</mask>
+      <mask>COnfiguration</mask>
+      <mask>COnfiguration.</mask>
+      <mask>Configuration.</mask>
+      <mask>Configuration.p</mask>
+      <mask>Configuration.php</mask>
     </recentFileMasks>
   </component>
 </application>
