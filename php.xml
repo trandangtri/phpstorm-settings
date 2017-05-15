@@ -1,12 +1,7 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings>
-      <MessDetectorConfiguration />
-    </phpmd_settings>
-  </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
+      <PhpCSConfiguration standards="'/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_intl.dll';-;0;9):;MySource;PEAR;PHP;PHPCS;PSR1;PSR2;Squiz;Startup:;Unable;Unknown;Warning:;Zend;dlopen(/usr/local/Cellar/php70/7.0.15_8/lib/php/extensions/no-debug-non-zts-20151012/php_intl.dll;dynamic;found;image;in;library;line;load;not;on;to" tool_path="$USER_HOME$/webapp/8BitRockr/lemonswan/vagrant-dev/www/backend/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
