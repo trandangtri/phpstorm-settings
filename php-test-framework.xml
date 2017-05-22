@@ -5,7 +5,6 @@
         <settings>
           <configurations>
             <configuration_by_sdk interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" executable_path="/var/www/virt.sabu.de/vendor/codeception/codeception/codecept" />
-            <configuration_by_sdk interpreter_id="bb9ec21f-a1e6-4844-bb1f-c7e9eb5638a3" executable_path="/var/www/backend/vendor/codeception/codeception/codecept" />
           </configurations>
         </settings>
       </tool>
