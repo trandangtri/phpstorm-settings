@@ -16,6 +16,7 @@
         <cache>
           <versions>
             <info id="interpreter-012553d1-d2c2-43bb-897a-f5767c6e635c" version="2.2.9" />
+            <info id="interpreter-bb9ec21f-a1e6-4844-bb1f-c7e9eb5638a3" version="2.2.10" />
           </versions>
         </cache>
       </tool>
