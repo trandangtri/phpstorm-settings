@@ -1,7 +1,7 @@
 <application>
   <component name="MessDetector">
     <phpmd_settings>
-      <MessDetectorConfiguration />
+      <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">
@@ -19,7 +19,7 @@
         <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockr/dodenhof/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="vagrant:///Users/tritran/webapp/8BitRockr/LemonSwan/vagrant-dev/usr/bin/php" id="c555f5e9-4421-4338-bf87-bfc0cbf35324" name="lemonswan.dev" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockr/LemonSwan/vagrant-dev" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" />
+        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockr/LemonSwan/vagrant-dev" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
@@ -723,7 +723,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="lemonswan.dev">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2 58206 22" version="7.0.19-1+deb.sury.org~xenial+1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2 64157 22" version="7.0.20-2~ubuntu16.04.1+deb.sury.org+1">
           <additional_php_ini>/etc/php/7.0/cli/conf.d/10-mysqlnd.ini, /etc/php/7.0/cli/conf.d/10-opcache.ini, /etc/php/7.0/cli/conf.d/10-pdo.ini, /etc/php/7.0/cli/conf.d/15-xml.ini, /etc/php/7.0/cli/conf.d/20-bcmath.ini, /etc/php/7.0/cli/conf.d/20-calendar.ini, /etc/php/7.0/cli/conf.d/20-ctype.ini, /etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-dom.ini, /etc/php/7.0/cli/conf.d/20-exif.ini, /etc/php/7.0/cli/conf.d/20-fileinfo.ini, /etc/php/7.0/cli/conf.d/20-ftp.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-gettext.ini, /etc/php/7.0/cli/conf.d/20-iconv.ini, /etc/php/7.0/cli/conf.d/20-imap.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mbstring.ini, /etc/php/7.0/cli/conf.d/20-mcrypt.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-phar.ini, /etc/php/7.0/cli/conf.d/20-posix.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/20-shmop.ini, /etc/php/7.0/cli/conf.d/20-simplexml.ini, /etc/php/7.0/cli/conf.d/20-sockets.ini, /etc/php/7.0/cli/conf.d/20-sysvmsg.ini, /etc/php/7.0/cli/conf.d/20-sysvsem.ini, /etc/php/7.0/cli/conf.d/20-sysvshm.ini, /etc/php/7.0/cli/conf.d/20-tokenizer.ini, /etc/php/7.0/cli/conf.d/20-wddx.ini, /etc/php/7.0/cli/conf.d/20-xdebug.ini, /etc/php/7.0/cli/conf.d/20-xmlreader.ini, /etc/php/7.0/cli/conf.d/20-xmlwriter.ini, /etc/php/7.0/cli/conf.d/20-xsl.ini, /etc/php/7.0/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
           <configuration_options>
@@ -1020,7 +1020,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.1">
+            <debugger_info debugger="xdebug" debugger_version="2.5.5">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -1084,6 +1084,7 @@
   <component name="PhpUnit">
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="PHPUNIT_PHAR" custom_loader_path="/var/www/virt.sabu.de/vendor/autoloader.php" phpunit_phar_path="/var/www/virt.sabu.de/phpunit.phar" />
+      <phpunit_by_interpreter interpreter_id="c555f5e9-4421-4338-bf87-bfc0cbf35324" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/SqsQueue/vendor/autoloader.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </application>

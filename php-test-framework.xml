@@ -23,8 +23,8 @@
       <tool tool_name="PHPUnit">
         <cache>
           <versions>
-            <info id="interpreter-012553d1-d2c2-43bb-897a-f5767c6e635c" version="5.6.8" />
             <info id="interpreter-a97b2f4e-c2be-4af0-8293-3af086da20ba" version="6.0.8" />
+            <info id="interpreter-c555f5e9-4421-4338-bf87-bfc0cbf35324" version="6.0.13" />
           </versions>
         </cache>
       </tool>
