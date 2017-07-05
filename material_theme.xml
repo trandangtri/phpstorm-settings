@@ -1,0 +1,7 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="highlightColor" value="80cbc4" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="isBoldTabs" value="true" />
+  </component>
+</application>
