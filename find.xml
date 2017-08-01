@@ -8,7 +8,6 @@
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
-      <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
@@ -34,6 +33,7 @@
       <mask>*.</mask>
       <mask>*.ym</mask>
       <mask>*.yml</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
