@@ -1,14 +1,14 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping pattern=".env" type=".env file" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
-      <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yml.j2" type="YAML" />
-      <mapping pattern="Vagrantfile" type="YAML" />
       <mapping pattern=".env" type="YAML" />
     </extensionMap>
   </component>
