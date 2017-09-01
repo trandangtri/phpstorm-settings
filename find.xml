@@ -3,12 +3,11 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>*.java</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
       <mask>*.json</mask>
       <mask>*.twig</mask>
       <mask>.yml</mask>
@@ -26,14 +25,16 @@
       <mask>Configuration.</mask>
       <mask>Configuration.p</mask>
       <mask>Configuration.php</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ym</mask>
       <mask>*.js</mask>
       <mask>y</mask>
       <mask>ym</mask>
       <mask>yml</mask>
       <mask>*.yml</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
