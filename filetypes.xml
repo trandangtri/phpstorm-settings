@@ -6,6 +6,7 @@
       <mapping pattern="phraseapp" type="PLAIN_TEXT" />
       <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="test2" type="PLAIN_TEXT" />
       <mapping pattern=".env.dist" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
