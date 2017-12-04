@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="localRegularExpressions" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Project Files" />
@@ -29,14 +31,14 @@
       <mask>ym</mask>
       <mask>yml</mask>
       <mask>*.js</mask>
-      <mask>*</mask>
-      <mask>*.yml</mask>
-      <mask>*.ym</mask>
       <mask>*.y</mask>
-      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.ph</mask>
       <mask>*.php</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.ym</mask>
+      <mask>*.yml</mask>
     </recentFileMasks>
   </component>
 </application>
