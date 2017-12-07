@@ -13,6 +13,7 @@
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yml.j2" type="YAML" />
       <mapping pattern=".env" type="YAML" />
+      <mapping ext="local" type="YAML" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
