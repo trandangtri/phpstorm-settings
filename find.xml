@@ -3,19 +3,8 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="composer.json" />
     <recentFileMasks>
-      <mask>*.mxml</mask>
-      <mask>*.json</mask>
-      <mask>*.twig</mask>
-      <mask>.yml</mask>
-      <mask>C</mask>
-      <mask>CO</mask>
-      <mask>COn</mask>
-      <mask>COnf</mask>
-      <mask>COnfig</mask>
-      <mask>COnfigur</mask>
-      <mask>COnfigura</mask>
-      <mask>COnfigurati</mask>
       <mask>COnfiguratio</mask>
       <mask>COnfiguration</mask>
       <mask>COnfiguration.</mask>
@@ -34,6 +23,18 @@
       <mask>*.</mask>
       <mask>*.ym</mask>
       <mask>*.yml</mask>
+      <mask>c</mask>
+      <mask>co</mask>
+      <mask>com</mask>
+      <mask>comp</mask>
+      <mask>compos</mask>
+      <mask>compose</mask>
+      <mask>composer</mask>
+      <mask>composer.</mask>
+      <mask>composer.j</mask>
+      <mask>composer.js</mask>
+      <mask>composer.jso</mask>
+      <mask>composer.json</mask>
     </recentFileMasks>
   </component>
 </application>
