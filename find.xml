@@ -5,9 +5,8 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>COnfiguratio</mask>
-      <mask>COnfiguration</mask>
       <mask>COnfiguration.</mask>
       <mask>Configuration.</mask>
       <mask>Configuration.p</mask>
@@ -18,10 +17,6 @@
       <mask>*.js</mask>
       <mask>*.y</mask>
       <mask>*.p</mask>
-      <mask>*.ph</mask>
-      <mask>*.php</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ym</mask>
       <mask>*.yml</mask>
       <mask>c</mask>
@@ -36,6 +31,12 @@
       <mask>composer.js</mask>
       <mask>composer.jso</mask>
       <mask>composer.json</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.ph</mask>
+      <mask>*.phphp</mask>
+      <mask>*.phph</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
