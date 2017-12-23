@@ -4,8 +4,6 @@
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <recentFileMasks>
-      <mask>COnfiguration.</mask>
-      <mask>Configuration.</mask>
       <mask>Configuration.p</mask>
       <mask>Configuration.php</mask>
       <mask>y</mask>
@@ -34,6 +32,8 @@
       <mask>*.phphp</mask>
       <mask>*.phph</mask>
       <mask>*.php</mask>
+      <mask>*.jso</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
