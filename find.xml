@@ -5,10 +5,8 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
-      <mask>COnfiguration.</mask>
-      <mask>Configuration.</mask>
       <mask>Configuration.p</mask>
       <mask>Configuration.php</mask>
       <mask>y</mask>
@@ -37,6 +35,8 @@
       <mask>*.phphp</mask>
       <mask>*.phph</mask>
       <mask>*.php</mask>
+      <mask>*.jso</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
