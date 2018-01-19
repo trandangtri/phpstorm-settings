@@ -1,13 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
-      <mask>*.p</mask>
       <mask>c</mask>
       <mask>co</mask>
       <mask>com</mask>
@@ -31,12 +27,13 @@
       <mask>*.yml</mask>
       <mask>*.h</mask>
       <mask>*.htr</mask>
+      <mask>*</mask>
+      <mask>*.ts</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
       <mask>*.ht</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
