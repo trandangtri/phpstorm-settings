@@ -3,7 +3,6 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
       <mask>comp</mask>
       <mask>compos</mask>
@@ -25,16 +24,16 @@
       <mask>*.yml</mask>
       <mask>*.h</mask>
       <mask>*.htr</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ht</mask>
       <mask>*.htm</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>ht</mask>
       <mask>htm</mask>
       <mask>html</mask>
       <mask>*.html</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
