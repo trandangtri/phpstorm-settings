@@ -22,13 +22,13 @@
       <mask>*.y</mask>
       <mask>*.ym</mask>
       <mask>*.yml</mask>
-      <mask>*.h</mask>
       <mask>*.htr</mask>
-      <mask>*.ht</mask>
-      <mask>*.htm</mask>
       <mask>ht</mask>
       <mask>htm</mask>
       <mask>html</mask>
+      <mask>*.h</mask>
+      <mask>*.ht</mask>
+      <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*</mask>
       <mask>*.</mask>
