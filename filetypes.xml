@@ -2,20 +2,21 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
-      <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
-      <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
-      <mapping pattern=".localenv" type="PLAIN_TEXT" />
-      <mapping pattern="phraseapp" type="PLAIN_TEXT" />
-      <mapping pattern="test2" type="PLAIN_TEXT" />
       <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
+      <mapping pattern="phraseapp" type="PLAIN_TEXT" />
+      <mapping pattern=".localenv" type="PLAIN_TEXT" />
+      <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="test2" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
+      <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yml.j2" type="YAML" />
       <mapping pattern=".env" type="YAML" />
       <mapping ext="local" type="YAML" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
