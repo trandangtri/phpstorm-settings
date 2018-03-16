@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>comp</mask>
       <mask>compos</mask>
@@ -13,10 +14,8 @@
       <mask>composer.js</mask>
       <mask>composer.jso</mask>
       <mask>composer.json</mask>
-      <mask>*.ph</mask>
       <mask>*.phphp</mask>
       <mask>*.phph</mask>
-      <mask>*.php</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
       <mask>*.y</mask>
@@ -31,9 +30,11 @@
       <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
