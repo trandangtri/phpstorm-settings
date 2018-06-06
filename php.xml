@@ -343,9 +343,9 @@
         </phpinfo>
       </interpreter>
       <interpreter name="Local">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.12_23/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.12_23/bin/php" path_separator=":" version="7.1.12">
-          <additional_php_ini />
-          <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.6/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.6/bin/php" path_separator=":" version="7.2.6">
+          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-opcache.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -396,7 +396,7 @@
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php71/7.1.12_23/lib/php/extensions/no-debug-non-zts-20160303" />
+            <configuration_option name="extension_dir" value="/usr/local/lib/php/pecl/20170718" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -416,13 +416,16 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.6/share/php/pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
+            <configuration_option name="intl.default_locale" value="" />
+            <configuration_option name="intl.error_level" value="0" />
+            <configuration_option name="intl.use_exceptions" value="0" />
             <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
-            <configuration_option name="mail.add_x_header" value="1" />
+            <configuration_option name="mail.add_x_header" value="" />
             <configuration_option name="mail.force_extra_parameters" value="" />
             <configuration_option name="mail.log" value="" />
             <configuration_option name="max_execution_time" value="0" />
@@ -460,7 +463,7 @@
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
             <configuration_option name="mysqlnd.net_read_buffer_size" value="32768" />
-            <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
+            <configuration_option name="mysqlnd.net_read_timeout" value="86400" />
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="odbc.allow_persistent" value="1" />
@@ -473,6 +476,39 @@
             <configuration_option name="odbc.defaultlrl" value="4096" />
             <configuration_option name="odbc.max_links" value="-1" />
             <configuration_option name="odbc.max_persistent" value="-1" />
+            <configuration_option name="opcache.blacklist_filename" value="" />
+            <configuration_option name="opcache.consistency_checks" value="0" />
+            <configuration_option name="opcache.dups_fix" value="0" />
+            <configuration_option name="opcache.enable" value="1" />
+            <configuration_option name="opcache.enable_cli" value="0" />
+            <configuration_option name="opcache.enable_file_override" value="0" />
+            <configuration_option name="opcache.error_log" value="" />
+            <configuration_option name="opcache.file_cache" value="" />
+            <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
+            <configuration_option name="opcache.file_cache_only" value="0" />
+            <configuration_option name="opcache.file_update_protection" value="2" />
+            <configuration_option name="opcache.force_restart_timeout" value="180" />
+            <configuration_option name="opcache.huge_code_pages" value="0" />
+            <configuration_option name="opcache.inherited_hack" value="1" />
+            <configuration_option name="opcache.interned_strings_buffer" value="8" />
+            <configuration_option name="opcache.lockfile_path" value="/tmp" />
+            <configuration_option name="opcache.log_verbosity_level" value="1" />
+            <configuration_option name="opcache.max_accelerated_files" value="10000" />
+            <configuration_option name="opcache.max_file_size" value="0" />
+            <configuration_option name="opcache.max_wasted_percentage" value="5" />
+            <configuration_option name="opcache.memory_consumption" value="128" />
+            <configuration_option name="opcache.opt_debug_level" value="0" />
+            <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
+            <configuration_option name="opcache.preferred_memory_model" value="" />
+            <configuration_option name="opcache.protect_memory" value="0" />
+            <configuration_option name="opcache.restrict_api" value="" />
+            <configuration_option name="opcache.revalidate_freq" value="2" />
+            <configuration_option name="opcache.revalidate_path" value="0" />
+            <configuration_option name="opcache.save_comments" value="1" />
+            <configuration_option name="opcache.use_cwd" value="1" />
+            <configuration_option name="opcache.validate_permission" value="0" />
+            <configuration_option name="opcache.validate_root" value="0" />
+            <configuration_option name="opcache.validate_timestamps" value="1" />
             <configuration_option name="open_basedir" value="" />
             <configuration_option name="openssl.cafile" value="" />
             <configuration_option name="openssl.capath" value="" />
@@ -483,9 +519,17 @@
             <configuration_option name="pcre.jit" value="1" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
             <configuration_option name="pdo_mysql.default_socket" value="/tmp/mysql.sock" />
+            <configuration_option name="pgsql.allow_persistent" value="1" />
+            <configuration_option name="pgsql.auto_reset_persistent" value="" />
+            <configuration_option name="pgsql.ignore_notice" value="0" />
+            <configuration_option name="pgsql.log_notice" value="0" />
+            <configuration_option name="pgsql.max_links" value="-1" />
+            <configuration_option name="pgsql.max_persistent" value="-1" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
+            <configuration_option name="phpdbg.auth" value="" />
+            <configuration_option name="phpdbg.path" value="" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="4096K" />
@@ -504,7 +548,7 @@
             <configuration_option name="session.cookie_httponly" value="" />
             <configuration_option name="session.cookie_lifetime" value="0" />
             <configuration_option name="session.cookie_path" value="/" />
-            <configuration_option name="session.cookie_secure" value="" />
+            <configuration_option name="session.cookie_secure" value="0" />
             <configuration_option name="session.gc_divisor" value="1000" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
             <configuration_option name="session.gc_probability" value="1" />
@@ -535,10 +579,9 @@
             <configuration_option name="soap.wsdl_cache_enabled" value="1" />
             <configuration_option name="soap.wsdl_cache_limit" value="5" />
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
-            <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="track_errors" value="1" />
+            <configuration_option name="track_errors" value="0" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
             <configuration_option name="upload_tmp_dir" value="" />
@@ -570,6 +613,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -584,8 +628,10 @@
             <extension name="ftp" />
             <extension name="gd" />
             <extension name="gettext" />
+            <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
             <extension name="libxml" />
@@ -596,14 +642,20 @@
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
+            <extension name="pdo_dblib" />
             <extension name="pdo_mysql" />
+            <extension name="pdo_pgsql" />
             <extension name="pdo_sqlite" />
+            <extension name="pgsql" />
+            <extension name="phpdbg_webhelper" />
             <extension name="posix" />
+            <extension name="pspell" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
             <extension name="sockets" />
+            <extension name="sodium" />
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="sysvmsg" />
