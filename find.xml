@@ -3,41 +3,7 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="localRegularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <recentFileMasks>
-      <mask>comp</mask>
-      <mask>compos</mask>
-      <mask>compose</mask>
-      <mask>composer</mask>
-      <mask>composer.</mask>
-      <mask>composer.j</mask>
-      <mask>composer.js</mask>
-      <mask>composer.jso</mask>
-      <mask>composer.json</mask>
-      <mask>*.phphp</mask>
-      <mask>*.phph</mask>
-      <mask>*.jso</mask>
-      <mask>*.json</mask>
-      <mask>*.y</mask>
-      <mask>*.ym</mask>
-      <mask>*.yml</mask>
-      <mask>*.htr</mask>
-      <mask>ht</mask>
-      <mask>htm</mask>
-      <mask>html</mask>
-      <mask>*.h</mask>
-      <mask>*.ht</mask>
-      <mask>*.htm</mask>
-      <mask>*.html</mask>
-      <mask>*</mask>
-      <mask>*.ts</mask>
-      <mask>*.t</mask>
-      <mask>*.</mask>
-      <mask>*.ph</mask>
-      <mask>*.php</mask>
-    </recentFileMasks>
   </component>
 </application>
