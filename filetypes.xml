@@ -11,6 +11,7 @@
       <mapping pattern="phraseapp" type="PLAIN_TEXT" />
       <mapping pattern="test2" type="PLAIN_TEXT" />
       <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
+      <mapping ext="vhost" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
