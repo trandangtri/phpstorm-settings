@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping ext="dev" type="Ini" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
