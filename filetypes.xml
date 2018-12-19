@@ -1,31 +1,30 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping pattern=".env" type=".env file" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="dev" type="Ini" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
-      <mapping pattern=".localenv" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="phraseapp" type="PLAIN_TEXT" />
-      <mapping pattern="test2" type="PLAIN_TEXT" />
       <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
+      <mapping pattern="phraseapp" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping ext="vhost" type="PLAIN_TEXT" />
+      <mapping pattern="test2" type="PLAIN_TEXT" />
+      <mapping pattern=".localenv" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="vhost" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yml.j2" type="YAML" />
       <mapping pattern="*.yaml.tpl" type="YAML" />
       <mapping pattern="*.yml.tpl" type="YAML" />
-      <mapping pattern=".env.dev" type="YAML" />
-      <mapping pattern=".env" type="YAML" />
       <mapping ext="local" type="YAML" />
-      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
