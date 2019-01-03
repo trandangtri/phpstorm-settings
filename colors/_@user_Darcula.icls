@@ -1,9 +1,9 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-12-27T13:50:40</property>
+    <property name="created">2018-12-29T12:25:24</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2018.2.1.0.0</property>
-    <property name="modified">2019-01-02T10:17:38</property>
+    <property name="ideVersion">2018.2.5.0.0</property>
+    <property name="modified">2018-12-29T12:34:58</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -13,9 +13,7 @@
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f77669" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="546e7a" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="546e7a" />
     <option name="FILESTATUS_MERGED" value="65738e" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
