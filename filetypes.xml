@@ -4,20 +4,21 @@
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping ext="dev" type="Ini" />
       <mapping pattern="VictorioiusPizzaRepositoryInterface.php" type="PHP" />
-      <mapping pattern="android-react-gradle-fix" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="phraseapp_err" type="PLAIN_TEXT" />
       <mapping pattern=".env.dist" type="PLAIN_TEXT" />
       <mapping pattern=".localenv" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="phraseapp" type="PLAIN_TEXT" />
-      <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
+      <mapping pattern="android-react-gradle-fix" type="PLAIN_TEXT" />
       <mapping pattern="test2" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="vhost" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
