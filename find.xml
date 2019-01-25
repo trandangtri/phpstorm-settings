@@ -13,8 +13,9 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.php</mask>
     <mask>*.tsx</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
+    <mask>.env.customer</mask>
   </component>
 </application>
