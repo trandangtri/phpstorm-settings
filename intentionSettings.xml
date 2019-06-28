@@ -1,6 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="PHP/Symfony2MethodCreateService" />
-    <ignoreAction name="PHP/Swap call arguments" />
-  </component>
-</application>

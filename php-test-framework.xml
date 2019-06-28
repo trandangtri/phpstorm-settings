@@ -1,15 +1,4 @@
 <application>
-  <component name="PhpTestFrameworkSettings">
-    <test_tools>
-      <tool tool_name="Codeception">
-        <settings>
-          <configurations>
-            <configuration_by_sdk interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" executable_path="/var/www/virt.sabu.de/vendor/codeception/codeception/codecept" />
-          </configurations>
-        </settings>
-      </tool>
-    </test_tools>
-  </component>
   <component name="PhpTestFrameworkVersionCache">
     <tools_cache>
       <tool tool_name="Codeception">
