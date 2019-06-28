@@ -8,17 +8,17 @@
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="derby.remote">
+    <driver id="derby.embedded">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="derby.embedded">
+    <driver id="derby.remote">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
     </driver>
     <driver id="sqlserver.ms">
@@ -32,18 +32,18 @@
     </driver>
     <driver id="sybase.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
     </driver>
     <driver id="sybase.ase">
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="mysql.8">
+      <artifact name="MySQL Connector/J 8" use="true" />
+      <option name="auto-sync" value="true" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" version="5.1.47" />
+      <artifact name="MySQL Connector/J" use="true" />
       <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-      <option name="schema-control" value="AUTOMATIC" />
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" />
@@ -51,30 +51,24 @@
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
-      <option name="auto-sync" value="false" />
+      <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
     </driver>
     <driver id="postgresql">
-      <artifact name="PostgreSQL" use="true" version="42.2.5" />
+      <artifact name="PostgreSQL" use="true" />
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
-    <driver id="hsqldb.remote">
+    <driver id="hsqldb.local">
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="hsqldb.local">
+    <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
@@ -92,6 +86,28 @@
     </driver>
     <driver id="clickhouse">
       <artifact name="ClickHouse" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="cassandra">
+      <artifact name="Cassandra" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="vertica">
+      <artifact name="Vertica" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hive">
+      <artifact name="Hive" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="greenplum">
+      <artifact name="PostgreSQL" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="snowflake">
+      <artifact name="Snowflake" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
   </component>
