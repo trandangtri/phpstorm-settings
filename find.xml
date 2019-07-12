@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -12,9 +14,9 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.tsx</mask>
-    <mask>*.js</mask>
     <mask>.env.customer</mask>
     <mask>*.twig</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
